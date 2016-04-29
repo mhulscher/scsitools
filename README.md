@@ -4,5 +4,6 @@ This image contains an installation of scsitools on top of Debian. You can invok
 
 ```
 # Retrieve serialnumber of /dev/sda
+
 $ docker run --privileged mhulscher/scsitools scsiinfo -s /dev/sda
 ```
